@@ -1,0 +1,51 @@
+SRR_ID,Healfy_status,Region,ID,№,Gender,Age,Inflammation containment,Type of inflammation
+SRR11796937,TRUE,total,2,1,male,29,large intestine,total
+SRR11796915,TRUE,total,4,2,male,35,sigmoid,total
+SRR11796893,TRUE,total,6,3,male,33,"cecum, Transverse colon, Rectum",total
+SRR11796891,TRUE,proctitis,8,4,female,39,rectum,proctitis
+SRR11796889,TRUE,left,10,5,male,79,descending colon,left-sided colitis
+SRR11796935,TRUE,total,12,6,female,39,"cecum, descending colon",total
+SRR11796933,TRUE,proctitis,14,7,female,20,rectum,total
+SRR11796931,TRUE,proctitis,16,8,male,47,sigmoid,proctitis
+SRR11796929,TRUE,left,18,9,female,23, sigmoid,left-sided colitis
+SRR11796927,TRUE,total,20,10,female,67,sigmoid,total
+SRR11796924,TRUE,total,22,11,female,16,"cecum, rectum",total
+SRR11796922,TRUE,total,24,12,male,68,"the large intestine, sigmoid",total
+SRR11796920,TRUE,proctitis,26,13,female,38,rectum,proctitis
+SRR11796918,TRUE,left,28,14,male,67,"rectum, ascending colon",left-sided colitis
+SRR11796916,TRUE,left,30,15,male,34,"the large intestine, sigmoid",left-sided colitis
+SRR11796913,TRUE,total,32,16,male,30,sigmoid,total
+SRR11796911,TRUE,left,34,17,male,64,descending colon,left-sided colitis
+SRR11796909,TRUE,proctitis,36,18,male,22,rectum,total
+SRR11796907,TRUE,total,38,19,female,31,"ascending colon, descending colon transverse colon, sigmoid, rectum.",total
+SRR11796905,TRUE,left,40,20,female,67,descending colon,left-sided colitis
+SRR11796902,TRUE,left,42,21,male,33,rectum,proctitis
+SRR11796900,TRUE,left,44,22,male,63,sigmoid,left-sided colitis
+SRR11796898,TRUE,total,46,23,female,38,"rectum ,transverse colon",total
+SRR11796896,TRUE,left,48,24,male,30,rectum,left-sided colitis
+SRR11796894,TRUE,left,50,25,male,73,sigmoid ,left-sided colitis
+SRR11796938,FALSE,total,1,1,male,29,large intestine,total
+SRR11796926,FALSE,total,3,2,male,35,sigmoid,total
+SRR11796904,FALSE,total,5,3,male,33,"cecum, Transverse colon, Rectum",total
+SRR11796892,FALSE,proctitis,7,4,female,39,rectum,proctitis
+SRR11796890,FALSE,left,9,5,male,79,descending colon,left-sided colitis
+SRR11796936,FALSE,total,11,6,female,39,"cecum, descending colon",total
+SRR11796934,FALSE,proctitis,13,7,female,20,rectum,total
+SRR11796932,FALSE,proctitis,15,8,male,47,sigmoid,proctitis
+SRR11796930,FALSE,left,17,9,female,23, sigmoid,left-sided colitis
+SRR11796928,FALSE,total,19,10,female,67,sigmoid,total
+SRR11796925,FALSE,total,21,11,female,16,"cecum, rectum",total
+SRR11796923,FALSE,total,23,12,male,68,"the large intestine, sigmoid",total
+SRR11796921,FALSE,proctitis,25,13,female,38,rectum,proctitis
+SRR11796919,FALSE,left,27,14,male,67,"rectum, ascending colon",left-sided colitis
+SRR11796917,FALSE,left,29,15,male,34,"the large intestine, sigmoid",left-sided colitis
+SRR11796914,FALSE,total,31,16,male,30,sigmoid,total
+SRR11796912,FALSE,left,33,17,male,64,descending colon,left-sided colitis
+SRR11796910,FALSE,proctitis,35,18,male,22,rectum,total
+SRR11796908,FALSE,total,37,19,female,31,"ascending colon, descending colon transverse colon, sigmoid, rectum.",total
+SRR11796906,FALSE,left,39,20,female,67,descending colon,left-sided colitis
+SRR11796903,FALSE,left,41,21,male,33,rectum,proctitis
+SRR11796901,FALSE,left,43,22,male,63,sigmoid,left-sided colitis
+SRR11796899,FALSE,total,45,23,female,38,"rectum ,transverse colon",total
+SRR11796897,FALSE,left,47,24,male,30,rectum,left-sided colitis
+SRR11796895,FALSE,left,49,25,male,73,sigmoid ,left-sided colitis

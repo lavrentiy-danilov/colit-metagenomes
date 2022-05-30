@@ -1,0 +1,13 @@
+1. Merging data
+usearch -fastq_mergepairs /mnt/projects/zilov/data/egor_metagenome/raw_reads/*_R1.fastq -fastq_maxdiffs 6 -fastq_pctid10 -fastqout /mnt/projects/zilov/data/egor_metagenome/usearch_run/common_out/merged.fq
+2. FiltrationФильтрация
+usearch -fastq_filter /mnt/projects/zilov/data/egor_metagenome/usearch_run/common_out/merged.fq -fastq_maxee 2.0 -fastaout /mnt/projects/zilov/data/egor_metagenome/usearch_run/common_out/filtered.fasta
+3. Selecting unique reads
+usearch -fastx_uniques /mnt/projects/zilov/data/egor_metagenome/usearch_run/common_out/filtered.fasta -fastaout /mnt/projects/zilov/data/egor_metagenome/usearch_run/common_out/uniques.fasta -relabel Uniq -sizeout
+4. OTU clusterisation
+usearch -cluster_otus /mnt/projects/zilov/data/egor_metagenome/usearch_run/common_out/uniques.fasta -minsize 2 -otus /mnt/projects/zilov/data/egor_metagenome/usearch_run/uparse_out/otus.fa -relabel Otu
+5. Creation OTU table
+usearch -usearch_global /mnt/projects/zilov/data/egor_metagenome/usearch_run/common_out/merged.fq -db /mnt/projects/zilov/data/egor_metagenome/usearch_run/uparse_out/otus.fa -strand plus -id 0.97 -otutabout /mnt/projects/zilov/data/egor_metagenome/usearch_run/uparse_out/otutable_global.txt
+6. OTU binning
+usearch -sintax ./otus.fa -db ../../taxdb_rdp/rdp_16s.udb -tabbedout otus.sintax -strand both -sintax_cutoff 0.8
+
